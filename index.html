@@ -983,7 +983,7 @@ document.addEventListener('keydown', function(e) {
     _csCurrent = _csCurrent.length > 1 ? _csCurrent.slice(0,-1) : '0';
     csRender();
   }
-  else if (k === 'Escape')           csAc();
+  else if (k === 'Escape' || k === 'Delete') csAc();
 });
 
 </script>
